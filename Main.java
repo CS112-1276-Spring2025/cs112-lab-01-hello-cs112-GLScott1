@@ -1,11 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Welcome to CS 112!");
 
+        Duck duck1 = new Duck("Bart", 4, 2.1);
+
+        System.out.println("Welcome to CS 112!");
         printStatement1();
         System.out.println(printStatement2());
 
-
+        System.out.println(duck1.toString());
     }
 
     public static void printStatement1() {
